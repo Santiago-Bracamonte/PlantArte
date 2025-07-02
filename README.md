@@ -14,7 +14,7 @@ Un proyecto de e-commerce de plantas desarrollado con React, que simula una tien
     -   **Gestión de Productos**: Agregar, editar y eliminar plantas del catálogo.
     -   **Gestión de Usuarios**: Editar roles de usuarios existentes y eliminar usuarios (con restricción para no auto-eliminarse).
 -   **Rutas Protegidas**: Acceso restringido al panel de administración solo para usuarios con rol 'admin'.
--   **Navegación Intuitiva**: Uso de `react-router-dom` para una experiencia de usuario fluida.
+-   **Navegación Intuitiva**: Uso de React Router DOM para una experiencia de usuario fluida.
 
 ## Tecnologías Utilizadas
 
@@ -44,7 +44,7 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
     ```bash
     npm start
     ```
-    Esto abrirá la aplicación en tu navegador en `http://localhost:3000`.
+    Esto abrirá la aplicación en tu navegador en http://localhost:3000.
 
 ## Datos de Acceso de Prueba
 
@@ -56,5 +56,3 @@ Puedes usar los siguientes datos para probar las funcionalidades de autenticaci�
 -   **Cliente:**
     -   **Usuario:** `cliente`
     -   **Contraseña:** `cliente123`
-
-## Estructura del Proyecto
