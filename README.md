@@ -26,7 +26,7 @@ Un proyecto de e-commerce de plantas desarrollado con React, que simula una tien
 
 ## Instalación y Ejecución Local
 
-Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
+Para poner en marcha el proyecto en tu máquina local:
 
 1.  **Clona el repositorio:**
     ```bash
@@ -44,11 +44,11 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
     ```bash
     npm start
     ```
-    Esto abrirá la aplicación en tu navegador en http://localhost:3000.
+    Esto abre la aplicación en tu navegador en http://localhost:3000.
 
 ## Datos de Acceso de Prueba
 
-Puedes usar los siguientes datos para probar las funcionalidades de autenticación:
+Podrás usar los siguientes datos para probar las funcionalidades de autenticación:
 
 -   **Administrador:**
     -   **Usuario:** `admin`
