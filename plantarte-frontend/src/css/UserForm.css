@@ -1,0 +1,88 @@
+.user-create-form, .user-edit-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-create-form h3, .user-edit-form h3 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.form-actions .save-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.form-actions .save-btn:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.form-actions .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.form-actions .cancel-btn:hover:not(:disabled) {
+    background-color: #c82333;
+}
+
+.form-actions button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.form-error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
